@@ -41,4 +41,8 @@
     "esbuild@0.28.2": true,
     "msw@2.14.6": true
   }
+  "main": "server/dist/index.js",
+  "scripts": {
+    "start": "node server/dist/index.js"
+  }
 }
